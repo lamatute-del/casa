@@ -28,7 +28,6 @@
 .techo{
     display: flex;
     align-items: end;
-    background-color: aqua;
 }
 .pared {
     width: 100%;
@@ -74,4 +73,5 @@
     width: 140px;
     height: 150px;
     background-image: url(assets/garage.jpg);
+
 }
