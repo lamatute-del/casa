@@ -1,0 +1,77 @@
+.casa {
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.segundo-nivel {
+    background-image: url(assets/textura.jpg);
+    background-size: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ventana {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/ventana.jpg);
+    background-size: 100%;
+}
+.techo{
+    display: flex;
+    align-items: end;
+    background-color: aqua;
+}
+.pared {
+    width: 100%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.cuadros {
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: gray;
+}
+.primer-nivel {
+    background-image: url(assets/textura.jpg);
+    background-size: 50%;
+    
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.puerta {
+    background-image: url(assets/puerta.jpg);
+    background-size: 100%;
+    height: 120px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.garage{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url(assets/textura.jpg);
+    background-size: 50%;
+}
+.porton {
+    width: 140px;
+    height: 150px;
+    background-image: url(assets/garage.jpg);
+}
